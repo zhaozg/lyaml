@@ -11,7 +11,7 @@ defines  = {
    VERSION              = '"$version"',
    NDEBUG               = 1,
    _FORTIFY_SOURCE      = 2,
-   platforms   = {    
+   platforms   = {
       aix      = {_ALL_SOURCE       = 1},
       bsd      = {_BSD_SOURCE       = 1},
       freebsd  = {__BSD_VISIBLE     = 1},
@@ -21,7 +21,8 @@ defines  = {
 
 external_dependencies   = {
    YAML  = {
-      library = {checksymbol='yaml_document_initialize', library='yaml'},
+      header = "yaml.h",
+      library = {library='yaml'},
    },
 }
 
