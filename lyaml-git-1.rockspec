@@ -33,6 +33,7 @@ build = {
       .. ' PREFIX="$(PREFIX)"'
       .. ' CFLAGS="$(CFLAGS)"'
       .. ' LIBFLAG="$(LIBFLAG)"'
+      .. ' LIBS="-lyaml"'
       .. ' LIB_EXTENSION="$(LIB_EXTENSION)"'
       .. ' OBJ_EXTENSION="$(OBJ_EXTENSION)"'
       .. ' LUA="$(LUA)"'
